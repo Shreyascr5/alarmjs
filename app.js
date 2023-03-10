@@ -34,3 +34,10 @@ function timeStamp() {
     date.innerHTML = d + "/" + m + "/" + y;
 }
 setInterval(timeStamp, 10);
+
+function alarmSet() {
+
+}
+
+
+Set.addEventListener("click", setAlarm)
